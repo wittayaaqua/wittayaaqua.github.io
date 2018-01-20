@@ -1,13 +1,13 @@
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Righteous';
   font-weight: 200;
   letter-spacing: 1px; }
 
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+  font-family: 'Righteous'; }
 
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Righteous', 'Lato', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -18,13 +18,13 @@ html {
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+  font-family: 'Righteous'; }
 
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f0c808; }
+  color: #196db6; }
   a:hover, a:focus {
     color: #fcbd20; }
 
@@ -37,7 +37,7 @@ hr {
     border-color: white; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Righteous';
   font-weight: 200;
   letter-spacing: 1px; }
 
@@ -52,14 +52,14 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Righteous';
   font-weight: 200;
   letter-spacing: 1px; }
   .navbar-default .navbar-header .navbar-brand {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Righteous';
     font-weight: 200;
     letter-spacing: 1px;
-    color: #f0c808; }
+    color: #196db6; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
       color: #fcbd20; }
   .navbar-default .navbar-header .navbar-toggle {
@@ -67,7 +67,7 @@ p {
     color: #222222;
     padding: 8px 10px; }
   .navbar-default .nav > li > a {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Righteous';
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 11px;
@@ -75,12 +75,12 @@ p {
     .navbar-default .nav > li > a:focus {
       color: #222222; }
     .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
-      color: #f0c808; }
+      color: #196db6; }
   .navbar-default .nav > li.active > a {
-    color: #f0c808 !important;
+    color: #196db6 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:focus {
-      color: #f0c808 !important;
+      color: #196db6 !important;
       background-color: transparent; }
     .navbar-default .nav > li.active > a:hover, .navbar-default .nav > li.active > a:focus:hover {
       background-color: transparent; }
@@ -105,24 +105,27 @@ p {
       .navbar-default.affix .navbar-header .navbar-brand {
         color: #222222; }
         .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-          color: #f0c808; }
+          color: #196db6; }
       .navbar-default.affix .nav > li > a {
         color: #222222; }
         .navbar-default.affix .nav > li > a:focus {
           color: #222222; }
         .navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
-          color: #f0c808; } }
+          color: #196db6; } }
 header {
   position: relative;
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #ebf2fa;
+  background: url("../img/main_banner.jpeg");
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #ebf2fa, #0375B4);
+  background: url("../img/main_banner.jpeg");
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #ebf2fa, #0375B4);
+  background: url("../img/main_banner.jpeg");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overlay-background-color: rgba(0, 0, 0, 0.7);
   color: white; }
   header .header-content {
     text-align: center;
@@ -210,8 +213,8 @@ section {
       font-size: 30px; }
     section.features .feature-item i {
       font-size: 80px;
-      background: -webkit-linear-gradient(to left, #ebf2fa, #0375B4);
-      background: linear-gradient(to left, #ebf2fa, #0375B4);
+      background: -webkit-linear-gradient(to left, #2d2e3c, #2d2e3c);
+      background: linear-gradient(to left, #2d2e3c, #2d2e3c);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   section.cta {
@@ -327,12 +330,12 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #f0c808;
-  background: -webkit-linear-gradient(#f0c808, #fdc539);
-  background: linear-gradient(#f0c808, #fdc539); }
+  background: #196db6;
+  background: -webkit-linear-gradient(#196db6, #71c8f0);
+  background: linear-gradient(#196db6, #71c8f0); }
 
 .text-primary {
-  color: #f0c808; }
+  color: #196db6; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -344,11 +347,11 @@ footer {
   border: 1px solid; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
-    background-color: #f0c808;
-    border-color: #f0c808; }
+    background-color: #196db6;
+    border-color: #196db6; }
 
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Righteous';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px; }
@@ -381,7 +384,7 @@ body {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(240, 200, 8, 0.9);
+    background: rgba(25, 109, 182, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -398,7 +401,7 @@ body {
       transform: translateY(-50%); }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Righteous';
         padding: 0 15px; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         text-transform: uppercase;
@@ -435,7 +438,7 @@ body {
     font-size: 24px;
     line-height: 1.1;
     display: block;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Righteous;
     font-weight: 300;
     margin: 10px 0 0; }
   .intro-header .post-heading h1 {
@@ -444,12 +447,12 @@ body {
     line-height: 1.1;
     display: block; }
   .intro-header .post-heading .subheading {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Righteous;
     font-size: 24px;
     margin: 10px 0 30px;
     font-weight: 600; }
   .intro-header .post-heading .meta {
-    font-family: 'Lora', 'Times New Roman', serif;
+    font-family: Righteous, Helvetica, serif;
     font-style: italic;
     font-weight: 300;
     font-size: 20px; }

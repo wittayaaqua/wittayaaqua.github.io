@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Example Defaults
-// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-family: Righteous, Arial, sans-seri;
 // $base-font-size:   20px;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
@@ -34,13 +34,13 @@
 // }
 
 // variables.less link and gradient background
-$head-primary: #ebf2fa;
+$head-primary: #2d2e3c;
 //Previously the above was #7b4397 ;
-$head-secondary: #0375B4;
+$head-secondary: #2d2e3c;
 //Previously the above was #150578 and #dc2430 ;
-$theme-primary: #f0c808 ;
-$theme-secondary: #fdc539 ;
-$theme-dark: #222;
+$theme-primary: #196db6 ;
+$theme-secondary: #71c8f0 ;
+$theme-dark: #63b3a6;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
