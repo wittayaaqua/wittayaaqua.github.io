@@ -114,7 +114,6 @@ p {
           color: #196db6; } }
 header {
   position: relative;
-  width: 10%;
   min-height: auto;
   overflow-y: hidden;
   background: url("../img/main_banner.jpeg");
