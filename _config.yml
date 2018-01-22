@@ -1,7 +1,7 @@
 # Site settings
-title: Jekyll Website Template for Wittaya Aqua
+title: Wittaya Aqua
 email:
-description: A jekyll template for landing pages
+description: Official Landing Page for Wittaya Aqua
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "" # the base hostname & protocol for your site
@@ -20,8 +20,6 @@ social:
   - title: twitter
     url: 
   - title: facebook
-    url: 
-  - title: google-plus
     url: 
   #- title: github
   #  url: http://github.com/jekyll
