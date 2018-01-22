@@ -4,7 +4,7 @@ email:info@wittaya-aqua.ca
 description: Official Landing Page for Wittaya Aqua
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "http://wittaya-aqua.ca" # the base hostname & protocol for your site
+url: "http://www.wittaya-aqua.ca" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 
