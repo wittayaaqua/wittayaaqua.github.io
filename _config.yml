@@ -1,6 +1,6 @@
 # Site settings
 title: Wittaya Aqua
-email:info@wittaya-aqua.ca
+email: info@wittaya-aqua.ca
 description: Official Landing Page for Wittaya Aqua
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
